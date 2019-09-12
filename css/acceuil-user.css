@@ -1,0 +1,86 @@
+.btnSubmit{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 10%;
+    cursor: pointer;
+    background: #1ab9ce;
+    color: #fff;
+    display: block;
+    position: relative;    
+    left: 5%;
+}
+.btnSubmit1{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 10%;
+    cursor: pointer;
+    background: #1ab9ce;
+    color: #fff;
+    display: block;
+    position: relative;    
+    left: 45%;
+}
+.btnSubmit2{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 10%;
+    cursor: pointer;
+    background: #1ab9ce;
+    color: #fff;
+    display: block;
+    position: relative;    
+    left: 80%;
+}
+
+.home-photo{
+    background-image: url("../img/logo-bibliotheque-paris.jpg");
+    border:1px solid #a511c0;
+    border-radius:270px;   
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 100px;
+    height: 135px;
+    width: 11%;
+    position: absolute;
+    margin-bottom: 15px;
+  }
+  .form-control{
+    border-radius:20px;
+    width:220px;
+}
+.btnSubmi
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #09ce44;
+    color: #fff;
+    display: block;
+    position: relative;    
+    left: 400px;
+}
+.form-group{
+    color: rgb(255, 27, 27);
+    font-weight: bolder;
+}
+.form-rech{
+    left:400px;
+    border-radius:20px;
+    width: 600px;
+}
+#gestion
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 25%;
+    cursor: pointer;
+    display: block;
+    position: relative;  
+    margin-left: 70%;
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/Magic-book-wallpaper-hd-download.jpg);
+    background-size: cover;
+
+  }
+  p{
+    font-size: 50px;
+    margin-left: 37%;
+    color: rgba(255, 255, 255);
+  }
+
+  .form-content
+  {
+      padding: 5%;
+    
+      margin-bottom: 2%;
+  }
+  .form-control{
+      border-radius:20px;
+  }
+  .btnSubmit
+  {
+      border:none;
+      border-radius:1.5rem;
+      padding: 1%;
+      width: 20%;
+      cursor: pointer;
+      background: #09ce44;
+      color: #fff;
+      display: block;
+      position: relative;    
+      left: 400px;
+  }
+  .form-group{
+      color: rgb(255, 27, 27);
+      font-weight: bolder
+  }
+  .home-photo{
+    background-image: url("../img/réserve-le-logo-53710670.jpg");
+  
+    border-radius:270px;   
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 100px;
+    height: 135px;
+    width: 11%;
+    position: absolute;
+    margin-bottom: 15px;
+  }

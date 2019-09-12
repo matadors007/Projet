@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/adherant.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Livre</title>
+</head>
+<body>
+        <a class="home-photo" href="home.html"></a>
+        <p> Gestion De Livre</p>
+        <div class="container register-form">
+                <form name="ad" onsubmit="return verif()" action="../php/livre/main.php" method="POST"> <!--Formulaire avec la direction de la page vers main.php lorsque on click sur le bouton et avec des tests js aussi -->
+                    <div class="form-content">
+                        <div class="row">
+            
+                            <div class="col-md-6">
+                                <div class="form-group" >
+                                    Titre:
+                                    <input type="text" class="form-control" name="titre" id="titre" placeholder="Titre"/>
+
+                                </div>
+                                <div class="form-group">
+                                        Nom d'Auteur:
+                                        <input type="text" class="form-control" name="nom" id="nom" placeholder="Nom D'Auteur"/>
+       
+                                    </div>
+
+
+                                <div class="form-group">
+                                    Date D'Edition:
+                                    <input type="Date" class="form-control"  name="dat" id="dat" placeholder="Date D'Edition" required/>
+   
+                                </div>
+            
+                            </div>
+                            <div class="col-md-6">
+                                    <div class="form-group">
+                                            Catégorie:
+                                            <select class="form-control" name="categorie" id="categorie" required>
+                                                    <option value="Science">Science</option>
+                                                    <option value="Psycologie">Psycologie</option>
+                                                    <option value="Histoire">Histoire</option>
+                                                    <option value="Sport">Sport</option>
+                                                    <option value="Art">Art</option>
+                                                    </select>
+        
+                                        </div>
+                               
+                                <div class="form-group">
+                                    Prenom D'Auteur :
+                                    <input type="text" class="form-control"  name="prenom" id="prenom" placeholder="Prenom D'Auteur"/>
+                                    
+                                </div>
+                                <div class="form-group" >
+                                    Nombre Disponible:
+                                    <input type="Number" class="form-control"  name="nb" id="nb" placeholder="Nombre Disponible "/>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="Submit" class="btnSubmit" value="Ajouter " >
+                    </div>
+            
+                </form>
+            
+            </div>
+           <script src="../js/livre.js"></script>
+</body>
+</html>

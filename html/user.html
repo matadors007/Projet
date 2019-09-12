@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/adherant.css"><!-- Appel Au fichier Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> <!--Appel Fichier Bootstrap-->
+
+    <title>User</title>
+</head>
+<body>
+        <a class="home-photo" href="home.html"></a> <!--Logo Pincipale-->
+        <form action="./login-user.php">
+            <P>Gestion D'Emprunt</P> <!--Titre De La Page-->
+             <button id="bouton" class="btn btn-outline-light" ><b>Connexion</b></button> <!--Bouton COnnexion  -->
+            </form>
+        <div class="container register-form">
+                <form name="ad" onsubmit="return verif()" action="../php/user/main.php" method="POST"><!--Formulaire D'inscription-->
+                    <div class="form-content">
+                        <div class="row">
+            
+                            <div class="col-md-6">
+                                <div class="form-group" >
+                                    Nom :
+                                    <input type="text" class="form-control" name="nom"id="nom" placeholder="Your Name "/>
+                                </div>
+
+
+                                <div class="form-group">
+                                        Adresse :
+                                        <input type="text" class="form-control" name="adresse"id="adresse" placeholder="Adresse"/>
+                                </div>
+
+
+                                <div class="form-group">
+                                     Email:
+                                    <input type="email" class="form-control" name="email"id="email" placeholder="Your Email "/>
+                                </div>
+            
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    Prenom :
+                                    <input type="text" class="form-control" name="prenom"id="prenom" placeholder="Your Last Name"/>
+                                </div>
+
+                                <div class="form-group">
+                                    CIN :
+                                    <input type="text" class="form-control" name="cin" id="cin" placeholder="Numero De Carte D'identité Nationale"/>  
+                                </div>
+                          
+                                <div class="form-group">
+                                    Mot De Passe :
+                                    <input type="password"  class="form-control" name="password" id="password" placeholder="Your Password "/>  
+                                </div>
+
+                             </div>
+                         </div>
+                        <input type="Submit" class="btnSubmit" value="Inscription " > <!-- Bouton -->
+                     </div>
+            
+                 </form>
+            
+         </div>
+                   <script src="../js/user.js"></script> <!--Appel Au Fichier Js-->
+</body>
+</html>
